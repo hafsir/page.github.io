@@ -1,0 +1,26 @@
+body {
+  background: url("2.png") no-repeat;
+  display: flex;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.color {
+  background-color: rgba(200, 200, 200, 0.4);
+  height: 80px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border: solid 1px rgba(200, 200, 200, 0.4);
+}
+.color p {
+  font-family: roboto, sans-serif;
+  text-align: center;
+  margin: 30px;
+  cursor: text;
+  color: rgba(225, 225, 225, 0.9);
+  font-style: italic;
+  font-stretch: ultra-expanded;
+  border: 1px solid rgba(200, 200, 200, 0.4);
+  border-radius: 30px;
+}
